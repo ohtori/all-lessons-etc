@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #faea99;
+  font-family: 'Open sans';
+}
+
+h1 {
+  color: darkorchid;
+  text-align: center;
+}

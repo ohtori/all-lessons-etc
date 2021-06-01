@@ -1,0 +1,68 @@
+[
+    {
+      "rank": "1",
+      "city": "Shanghai",
+      "population": 24256800,
+      "country": "China"
+    },
+    {
+      "rank": "2",
+      "city": "Karachi",
+      "population": 23500000,
+      "country": "Pakistan"
+    },
+    {
+      "rank": "3",
+      "city": "Beijing",
+      "population": 21516000,
+      "country": "China"
+    },
+    {
+      "rank": "4",
+      "city": "Delhi",
+      "population": 16780000,
+      "country": "India"
+    },
+    {
+      "rank": "5",
+      "city": "Lagos",
+      "population": 16060303,
+      "country": "Nigeria"
+    },
+    {
+      "rank": "6",
+      "city": "Tianjin",
+      "population": 15200000,
+      "country": "China"
+    },
+    {
+      "rank": "7",
+      "city": "Istanbul",
+      "population": 14160000,
+      "country": "Turkey"
+    },
+    {
+      "rank": "8",
+      "city": "Tokyo",
+      "population": 13513000,
+      "country": "Japan"
+    },
+    {
+      "rank": "9",
+      "city": "Guangzhou",
+      "population": 13800500,
+      "country": "China"
+    },
+    {
+      "rank": "10",
+      "city": "Mumbai",
+      "population": 12442000,
+      "country": "India"
+    },
+    {
+      "rank": "11",
+      "city": "Moscow",
+      "population": 12380000,
+      "country": "Russia"
+    }
+  ]

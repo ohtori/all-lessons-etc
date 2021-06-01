@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  h1 {
+    color: #d54d5a;
+  }
+  
+  p {
+    font-size: 17px;
+  }
+}
+
+.aspect-ratio-train {
+  width: 100%;
+  background: #da312c;
+  aspect-ratio: 16 / 9;
+  //padding-top: 50%;
+}

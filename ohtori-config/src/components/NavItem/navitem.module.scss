@@ -1,0 +1,26 @@
+ul.submenu {
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 250px;
+  background: #fff;
+  border-radius: 5px;
+  flex-direction: column;
+  padding: 20px 25px;
+  box-sizing: border-box;
+
+  li {
+    width: 100%;
+  }
+
+  a {
+    display: block;
+    width: 100%;
+    color: #555;
+    padding: 10px 0;
+  }
+
+  a:hover {
+    color: #6d0043;
+  }
+}

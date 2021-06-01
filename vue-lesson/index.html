@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vue lesson</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <style>
+    [v-cloak] {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="app" v-cloak>
+    <div class="card" style="padding: 5px;">
+      <div class="form-control">
+        <input type="text" @keyup.enter="addItem" ref="myInput">
+      </div>
+
+      <ul class="list" v-if="items.length">
+        <li
+          class="list-item"
+          v-for="(item, i) in evenItems"          
+          @click="items.splice(i, 1)"
+          :key="item"
+        >
+          <strong>{{ item }}</strong>
+          <input type="text" @click.stop>
+        </li>
+      </ul>
+      <h3 v-show="items.length === 0">No Elems</h3>
+    </div>
+  </div>
+  <script src="https://unpkg.com/vue@next"></script>
+  <script src="./index.js"></script>
+</body>
+</html>

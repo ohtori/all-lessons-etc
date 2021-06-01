@@ -1,0 +1,19 @@
+{
+  "name": "mongo-extended",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nose index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.25",
+    "mysql2": "^2.1.0",
+    "nodemon": "^2.0.4"
+  }
+}

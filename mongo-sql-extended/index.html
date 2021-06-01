@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mongo Extended + SQL Lesson</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <form id="car-form" class="col s6">
+        <h2>Create Car</h2>
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="Brand" type="text" class="validate">
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="Model" type="text" class="validate">
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="Year" type="text" class="validate">
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="VIN" type="text" class="validate">
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="Color" type="text" class="validate">
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="Price" type="number" class="validate">
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input value="Create Car" type="submit" class="btn green darken-4">
+          </div>
+        </div>
+      </form>
+      <form id="car-filter-form" class="col s6">
+        <h2>Cars Filter</h2>
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="By Brand" type="text" class="validate">
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="By Model" type="text" class="validate">
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="By Year" type="text" class="validate">
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="By VIN" type="text" class="validate">
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="By Color" type="text" class="validate">
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="Min Price" type="number" class="validate">
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input placeholder="Max Price" type="number" class="validate">
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input value="Find Cars" type="submit" class="btn orange darken-4">
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <h2>Search Result:</h2>
+        <ul class="search-result">
+        </ul>
+      </div>
+    </div>
+  </div>
+  <script src="create.js"></script>
+  <script src="find.js"></script>
+</body>
+</html>

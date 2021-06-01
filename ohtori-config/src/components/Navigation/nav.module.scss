@@ -1,0 +1,32 @@
+.navigation {
+  background: #e12da3;
+  padding: 30px;
+  box-sizing: border-box;
+
+  ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+
+  li {
+    position: relative;
+  }
+
+  button {
+    display: block;
+    background: #c21987;
+    border: none;
+    padding: 7px 15px;
+    line-height: 1.2em;
+    margin: 0 10px 0 0;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+      background: #7e0a55;
+    }
+  }
+}
+

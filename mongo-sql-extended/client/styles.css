@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: #111;
+}
+
+body {
+  background: #cddc39;
+}
+
+body.mysql {
+  background: #4479a1;
+  color: #fff;
+}
+
+h2, h1, h3 {
+  margin: 10px 0 20px 0;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.validate::placeholder {
+  color: #555 !important;
+}
+
+.mysql .validate::placeholder {
+  color: #fff !important;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+.input-field {
+  margin: 0;
+}
+
+.search-result li {
+  padding: 10px 15px !important;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: #f8ffb9;
+  margin-bottom: 15px;
+}
+
+.mysql .search-result li {
+  color: #333;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <title>Hello from Handlebars</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Test email sending</h1>
+    <div class="row">
+      {{msg}}
+      <form method="POST" action="send">
+        <div class="row">
+          <div class="row">
+            <div class="input-field col s6">
+              <input name="name" placeholder="First Name" type="text">
+            </div>
+            <div class="input-field col s6">
+              <input name="company" placeholder="Company" type="text">
+            </div>
+            <div class="input-field col s6">
+              <input name="email" placeholder="E-mail" type="email">
+            </div>
+            <div class="input-field col s6">
+              <input name="phone" placeholder="Phone number" type="text">
+            </div>
+            <div class="input-field col s6">
+              <textarea name="message" placeholder="Your Message" rows="5" class="materialize-textarea"></textarea>
+            </div>
+          </div>
+        </div>
+        <button class="btn deep-purple darken-4" type="submit">
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

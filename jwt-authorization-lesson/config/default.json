@@ -1,0 +1,6 @@
+{
+  "port": 4200,
+  "jwtSecret": "ohtori MERN lesson",
+  "dbURL": "mongodb+srv://ohtori:09031991Akio@cluster0-5mjnm.mongodb.net/app",
+  "baseUrl": "http://localhost:4200"
+}

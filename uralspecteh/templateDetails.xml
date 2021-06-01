@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="template" client="site">
+<name>vipzabor</name>
+<creationDate>21.04.2015</creationDate>
+<author>Ohtori</author>
+<authorEmail>ohtori@mail.ru</authorEmail>
+<authorUrl>http://www.izh-visitka.ru</authorUrl>
+<copyright>Copyright 2015</copyright>
+<license>GNU General Public License</license>
+<version>1.0.0</version>
+<description> DESCRIPTION</description>
+<files>
+<folder>css</folder>
+<folder>images</folder>
+<folder>js</folder>
+<folder>fancybox</folder>
+<filename>index.php</filename>
+<filename>templateDetails.xml</filename>
+<filename>sendmessage.php</filename>
+</files>
+<positions>
+<position>logo</position>
+<position>tel</position>
+<position>right-column</position>
+<position>top-menu</position>
+<position>in-content</position>
+<position>footer-contacts</position>
+<position>slider</position>
+<position>bread</position>
+<position>copyright</position>
+</positions>
+</extension>
